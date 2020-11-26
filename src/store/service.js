@@ -46,7 +46,7 @@ export function postCollection(){
   export function expiredCollection(){
    
     return axios.put(
-      `https://infinite-journey-35171.herokuapp.com/expiredDocument`
+      `https://infinite-journey-35171.herokuapp.com/articles/expiredDocument`
     ).then(
       response => {
       return { ...response };
@@ -60,7 +60,7 @@ export function postCollection(){
   export function expiredOneCollection(id){
    console.log("service folder id",id)
     return axios.put(
-      `https://infinite-journey-35171.herokuapp.com`,{id:id}
+      `https://infinite-journey-35171.herokuapp.com/articles`,{id:id}
     ).then(
       response => {
       return { ...response };
