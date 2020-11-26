@@ -48,7 +48,7 @@ const Index=(props)=> {
 					</Switch>
                 </Content>
                 <Footer style={{textAlign: 'center'}}>
-                Collrella8 Test
+                Correll8 Test
                 </Footer>
             </Layout>
         );
