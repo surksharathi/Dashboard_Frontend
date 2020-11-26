@@ -36,9 +36,7 @@ const Index=(props)=> {
                         <Menu.Item key="analytics">
 							<Link to="/analytics">Analytics</Link>
                         </Menu.Item>
-						
-                      
-                    </Menu>
+						</Menu>
                 </Header>
                 <Content style={{padding: '0 50px'}}>
 					<Switch>
